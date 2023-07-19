@@ -5,7 +5,10 @@ import Hero from './components/home/Hero';
 import Overview from './components/home/overview/Overview';
 import Cloud from './components/home/Cloud'
 import NotSure from './components/home/NotSure';
-import CloudMembership from './components/home/CloudMembership';
+import CloudMembership from './components/home/membership/CloudMembership';
+import Questions from './components/home/questions/Questions';
+import Creativity from './components/home/Creativity';
+import Footer from './components/home/Footer';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Cloud/>
       <NotSure/>
       <CloudMembership/>
+      <Questions/>
+      <Creativity/>
+      <Footer/>
     </Box>
   );
 }
