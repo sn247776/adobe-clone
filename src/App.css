@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  color: #0D66D0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.box-layout{
+  width: 80%;
+  margin: auto;
+}
+
+.btn-blue{
+  background-color: #0D66D0;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn-black{
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 50px;
+}
+
+.bg-video{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.bg-video video{
+  width: 100%;
+}
+.hero{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.hero h1{
+  font-size: 44px;
+  line-height: 55px;
+}
+
+.grid-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.not-sure{
+  background-image: url(./assets/bg-img.png);
+  height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
